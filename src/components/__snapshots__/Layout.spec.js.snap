@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout Snapshots should render our Snapshots correctly 1`] = `
+<div
+  className="layout"
+>
+  Layout
+</div>
+`;
