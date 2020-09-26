@@ -4,16 +4,22 @@ Install local project dependencies
 npm install
 ```
 
-To start webpack dev-server, run the following command -
+To start next dev-server, run the following command -
 
 ```sh
-npm run start
+npm run dev
 ```
 
 To build the project, run the following command -
 
 ```sh
 npm run build
+```
+
+To serve the build project, run the following command -
+
+```sh
+npm run start
 ```
 
 To check the linting errors, run the following command -
