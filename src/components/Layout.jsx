@@ -1,12 +1,7 @@
 import React from 'react';
-import OKRsList from './OKRsList';
 
 const Layout = () => {
-  return (
-    <div className="layout">
-      <OKRsList />
-    </div>
-  );
+  return <div className="layout">Layout</div>;
 };
 
 export default Layout;

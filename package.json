@@ -1,13 +1,13 @@
 {
-  "name": "ally",
-  "version": "1.0.0",
-  "description": "Ally Assignment",
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:check": "eslint --format=table --max-warnings 0 \"src/**/*.{js,jsx}\"",
     "lint:fix": "npm run lint:check -- --fix",
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production"
+    "build": "rm -rf ./dist && webpack --mode production"
   },
   "author": "Anshul Nema",
   "license": "ISC",

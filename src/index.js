@@ -14,5 +14,5 @@ const App = () => {
 
 export default App;
 
-const wrapper = document.getElementById('container');
+const wrapper = document.getElementById('root');
 wrapper ? ReactDOM.render(<App />, wrapper) : false;
